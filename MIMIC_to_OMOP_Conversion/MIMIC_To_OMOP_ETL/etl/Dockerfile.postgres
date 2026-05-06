@@ -1,0 +1,4 @@
+FROM postgres
+
+# Install the postgresql-contrib package, which includes uuid-ossp
+RUN apt-get update && apt-get install -y postgresql-contrib

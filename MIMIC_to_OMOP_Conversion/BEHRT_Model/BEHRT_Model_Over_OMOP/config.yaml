@@ -1,0 +1,58 @@
+global_config:
+  seed: 5959
+  device: "cuda"
+  # device: "cpu"
+  is_mp: True
+  output_model_path: "FL-mimic-iv-icd10-with-aggregations-mlm-model-min-visit=3"
+---
+data_config:
+  dataset_name: "MIMIC-IV"
+  data_dir_path: "/home/viskymi/project/FederatedBEHRT/data/icd10-multi-center/BEHRT_format/split_by_max_stay_time/"
+  test_path: "/home/viskymi/project/FederatedBEHRT/data/icd10/mimic_iv_behrt_with_aggregations_test_ds.csv"
+  vocab_pickle_path: "/home/viskymi/project/FederatedBEHRT/data/icd10/mimic_iv_icd10_with_aggregations_vocab"
+  max_patient_age: 83
+  max_len_seq: 128
+  min_visit: 2
+---
+
+fed_config:
+  C: 0.1
+  #  K: 39 #todo : should be removed?
+  K: 10 #todo : should be removed?
+  R: 500
+  # R: 5
+  E: 10 # todo: change it later epoch
+  B: 8 # was 10 batch
+  criterion: torch.nn.CrossEntropyLoss
+  optimizer: torch.optim.SGD
+---
+optim_config:
+  lr: 0.01
+  momentum: 0.9
+---
+init_config:
+  init_type: "xavier"
+  init_gain: 1.0
+  gpu_ids: [0]
+---
+model_config: 
+  name: CustomBertForMaskedLM
+  #vocab_size: len(BertVocab[token2idx].keys())  # number of disease + symbols for word embedding
+  hidden_size: 288  # word embedding and seg embedding hidden size
+  seg_vocab_size: 2  # number of vocab for seg embedding
+  #age_vocab_size: len(ageVocab.keys())  # number of vocab for age embedding
+  max_position_embedding: 64  # maximum number of tokens
+  hidden_dropout_prob: 0.1  # dropout rate
+  num_hidden_layers: 6  # number of multi-head attention layers required
+  num_attention_heads: 12  # number of attention heads
+  attention_probs_dropout_prob: 0.1  # multi-head attention dropout rate
+  intermediate_size: 512  # the size of the "intermediate" layer in the transformer encoder
+  hidden_act: gelu
+  # The non-linear activation function in the encoder and the pooler "gelu", relu, swish are supported
+  initializer_range: 0.02  # parameter weight initializer range
+---
+log_config:
+  log_path: "/home/viskymi/project/FederatedBEHRT/log/"
+  log_name:  "FL.log"
+  tb_port: 9989
+  tb_host: "0.0.0.0"

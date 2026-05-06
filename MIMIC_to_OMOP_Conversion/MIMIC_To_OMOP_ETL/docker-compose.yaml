@@ -1,0 +1,60 @@
+services:
+  postgres:
+    container_name: postgres_container
+    build:
+      context: ./etl
+      dockerfile: Dockerfile.postgres
+    image: postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeme}
+      PGDATA: /data/postgres
+    volumes:
+       - postgres:/data/postgres
+       - ./scripts:/data/scripts
+       - ./mimic-iv2:/data/mimic-iv2
+       - ./vocabulary:/data/vocabulary
+    ports:
+      - "5432:5432"
+    networks:
+      - postgres
+    restart: unless-stopped
+  
+  etl:
+    container_name: etl_container
+    build:
+      context: ./etl
+      dockerfile: Dockerfile
+    depends_on:
+      - postgres
+    networks:
+      - postgres
+    # restart: unless-stopped
+    # restart: on-failure
+    env_file:        
+      - etl/.env
+    # entrypoint: ["/bin/sh", "-c", "scripts/wait-for-it.sh postgres_container:5432 -- your_etl_command_here"]
+
+  pgadmin:
+    container_name: pgadmin_container
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: miriamwisky11@gmail.com  
+      PGADMIN_DEFAULT_PASSWORD: admin         
+    ports:
+      - "8081:80"  
+    networks:
+      - postgres
+    depends_on:
+      - postgres
+
+
+networks:
+  postgres:
+    driver: bridge
+
+volumes:
+    postgres:
+    scripts:
+    mimic-iv2:
+    vocabulary:

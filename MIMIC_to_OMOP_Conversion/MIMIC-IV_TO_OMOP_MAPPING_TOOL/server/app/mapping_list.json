@@ -1,0 +1,39 @@
+{
+    "patients": {
+        "subject_id": ["person_id<br>Table: person"],
+        "anchor_age": ["year_of_birth<br>Table: person - together with the anchor_year field, the calculation is: the year_of_birth is the anchor_year minus the anchor_age"],
+        "anchor_year": ["year_of_birth<br>Table: person - together with the anchor_age field, the calculation is: the year_of_birth is the anchor_year minus the anchor_age"],
+        "dod": ["death_datetime<br>Table: person"],
+        "explanation": "This table represents the patient's personal data. The patient table in OMOP is the <strong>PERSON</strong> table."
+    },
+    "admissions": {
+        "subject_id": ["person_id<br>Table: visit_occurrence"],
+        "hadm_id": ["visit_occurrence_id<br>Table: visit_occurrence"],
+        "admittime": ["visit_start_datetime<br>Table: visit_occurrence"],
+        "admission_type": ["visit_concept_id<br>Table: visit_occurrence"],
+        "explanation": "This table encodes the patient's hospitalization data. The hospitalization table in OMOP is the <strong>VISIT_OCCURRENCE</strong> table."
+    },
+    "d_icd_diagnoses": {
+        "icd_code": ["concept_code<br>Table: concept"],
+        "icd_version": ["vocabulary_id<br>Table: concept"],
+        "long_title": ["concept_name<br>Table: concept"],
+        "explanation": "This table represents the ICD code data. This table is represented in OMOP by the <strong>CONCEPT</strong> table."
+    },
+    "diagnoses_icd": {
+        "subject_id": ["person_id<br>Table: condition_occurrence"],
+        "hadm_id": ["visit_occurrence_id<br>Table: condition_occurrence"],
+        "seq_num": ["condition_occurrence_rank<br>Table: condition_occurrence"],
+        "icd_code": ["condition_source_value<br>Table: condition_occurrence"],
+        "icd_version": ["condition_source_concept_id<br>Table: condition_occurrence"],
+        "explanation": "This table represents the patient diagnosis data. This table is represented in OMOP by the <strong>CONDITION_OCCURRENCE</strong> table."
+    },
+    "transfers": {
+        "subject_id": ["person_id<br>Table: visit_detail"],
+        "hadm_id": ["visit_occurrence_id<br>Table: visit_detail"],
+        "transfer_id": ["visit_detail_id<br>Table: visit_detail"],
+        "careunit": ["care_site_source_value<br>Table: care_site"],
+        "intime": ["visit_detail_start_datetime<br>Table: visit_detail"],
+        "outtime": ["visit_detail_end_datetime<br>Table: visit_detail"],
+        "explanation": "This table represents patient transfer data. This table is represented in OMOP by the <strong>VISIT_DETAIL</strong> table."
+    }
+}

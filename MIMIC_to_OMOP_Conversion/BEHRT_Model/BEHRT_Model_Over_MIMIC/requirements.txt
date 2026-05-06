@@ -1,0 +1,32 @@
+# typing-extensions
+
+# # torch==1.13.1
+# torch>=1.8.0
+
+# # torchvision==0.13.1
+# torchvision>=0.17.1
+
+
+
+# numpy >= 1.19
+# pyyaml~=6.0
+# tensorboard
+# tqdm~=4.64.1
+# git+https://github.com/Ofir408/BEHRT.git@master
+# pytorch-pretrained-bert
+# h5py
+
+
+typing-extensions
+# torch>=1.8.0
+torch>=2.3.1
+torchvision>=0.17.1
+numpy>=1.19
+pyyaml~=6.0
+tensorboard
+tqdm~=4.64.1
+git+https://github.com/Ofir408/BEHRT.git@master
+pytorch-pretrained-bert
+h5py
+
+
