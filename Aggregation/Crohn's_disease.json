@@ -1,0 +1,190 @@
+{
+    "snomed_id": "404684003",
+    "name": "Clinical finding",
+    "children": [
+        {
+            "snomed_id": "64572001",
+            "name": "Disease",
+            "children": [
+                {
+                    "snomed_id": "56019007",
+                    "name": "Systemic disease",
+                    "children": [
+                        {
+                            "snomed_id": "24526004",
+                            "name": "Inflammatory bowel disease",
+                            "children": [
+                                {
+                                    "snomed_id": "34000006",
+                                    "name": "Crohn's disease",
+                                    "children": [
+                                        {
+                                            "snomed_id": "726101009",
+                                            "name": "Extraintestinal Crohn's",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "399946006",
+                                                    "name": "Crohn's disease of skin",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "402378006",
+                                                            "name": "Metastatic Crohn's disease of skin",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "402376005",
+                                                            "name": "Crohn's disease of penis",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "402377001",
+                                                            "name": "Crohn's disease of scrotum",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "402375009",
+                                                            "name": "Crohn's disease of vulva",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "1197727002",
+                                                            "name": "Crohn's disease of parastomal skin",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "410485009",
+                                                    "name": "Iritis with Crohn's disease",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "snomed_id": "235796008",
+                                                    "name": "Perianal Crohn's disease",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "snomed_id": "201805000",
+                                                    "name": "Juvenile arthritis in Crohn disease",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "snomed_id": "8161000119106",
+                                                    "name": "Arthritis co-occurrent and due to Crohn's disease",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "snomed_id": "196578009",
+                                                    "name": "Crohn's disease of oral soft tissues",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "234999001",
+                                                            "name": "Crohn's disease of gingivae",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "snomed_id": "426549001",
+                                            "name": "Crohn's disease in remission",
+                                            "children": []
+                                        },
+                                        {
+                                            "snomed_id": "397172008",
+                                            "name": "Gastrointestinal Crohn's disease",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "722850002",
+                                                    "name": "Crohn's disease of gastrointestinal anastomosis",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "snomed_id": "737195007",
+                                                    "name": "Crohn disease of upper gastrointestinal tract",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "235664007",
+                                                            "name": "Crohn's disease of stomach",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "235607002",
+                                                            "name": "Crohn's disease of esophagus",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "397173003",
+                                                    "name": "Crohn's disease of intestine",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "56689002",
+                                                            "name": "Crohn's disease of small intestine",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "7620006",
+                                                            "name": "Crohn's disease of large bowel",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "1085901000119101",
+                                                            "name": "Abscess of intestine co-occurrent and due to Crohn's disease",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "721702009",
+                                                    "name": "Crohn disease of anal canal",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "snomed_id": "414029004",
+                    "name": "Disorder of immune function",
+                    "children": [
+                        {
+                            "snomed_id": "24526004",
+                            "name": "Inflammatory bowel disease",
+                            "children": [
+                                {
+                                    "snomed_id": "34000006",
+                                    "name": "Crohn's disease",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "snomed_id": "128139000",
+                    "name": "Inflammatory disorder",
+                    "children": [
+                        {
+                            "snomed_id": "24526004",
+                            "name": "Inflammatory bowel disease",
+                            "children": [
+                                {
+                                    "snomed_id": "34000006",
+                                    "name": "Crohn's disease",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

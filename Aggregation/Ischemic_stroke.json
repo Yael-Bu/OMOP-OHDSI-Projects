@@ -1,0 +1,965 @@
+{
+    "snomed_id": "404684003",
+    "name": "Clinical finding",
+    "children": [
+        {
+            "snomed_id": "406122000",
+            "name": "Head finding",
+            "children": [
+                {
+                    "snomed_id": "299718000",
+                    "name": "Finding of brain",
+                    "children": [
+                        {
+                            "snomed_id": "81308009",
+                            "name": "Disorder of brain",
+                            "children": [
+                                {
+                                    "snomed_id": "301766008",
+                                    "name": "Lesion of brain",
+                                    "children": [
+                                        {
+                                            "snomed_id": "230690007",
+                                            "name": "Cerebrovascular accident",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "1344635001",
+                                                            "name": "Iatrogenic ischemic cerebral infarction",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "722929005",
+                                                            "name": "Perinatal arterial ischemic stroke of fetus and/or neonate",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "140911000119109",
+                                                            "name": "Ischemic stroke with coma",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "140921000119102",
+                                                            "name": "Ischemic stroke without coma",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "724994008",
+                                                            "name": "Cerebral ischemic stroke due to stenosis of extracranial large artery",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "724993002",
+                                                            "name": "Cerebral ischemic stroke due to occlusion of extracranial large artery",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "724424009",
+                                                            "name": "Cerebral ischemic stroke due to small artery occlusion",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "373606000",
+                                                            "name": "Occlusive stroke",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "725132001",
+                                                            "name": "Ischemic stroke without residual deficits",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "724426006",
+                                                            "name": "Cerebral ischemic stroke due to extracranial large artery atherosclerosis",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "724425005",
+                                                            "name": "Cerebral ischemic stroke due to intracranial large artery atherosclerosis",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "16891111000119104",
+                                                            "name": "Cryptogenic stroke",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "1142056004",
+                                                            "name": "Neonatal ischemic stroke",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "1197363004",
+                                                            "name": "Pediatric arterial ischemic stroke",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "snomed_id": "389100007",
+                                            "name": "Ischemic encephalopathy",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "snomed_id": "127294003",
+                                    "name": "Traumatic or nontraumatic brain injury",
+                                    "children": [
+                                        {
+                                            "snomed_id": "230690007",
+                                            "name": "Cerebrovascular accident",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "snomed_id": "389100007",
+                                            "name": "Ischemic encephalopathy",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "snomed_id": "118934005",
+                    "name": "Disorder of head",
+                    "children": [
+                        {
+                            "snomed_id": "81308009",
+                            "name": "Disorder of brain",
+                            "children": [
+                                {
+                                    "snomed_id": "301766008",
+                                    "name": "Lesion of brain",
+                                    "children": [
+                                        {
+                                            "snomed_id": "230690007",
+                                            "name": "Cerebrovascular accident",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "snomed_id": "389100007",
+                                            "name": "Ischemic encephalopathy",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "snomed_id": "127294003",
+                                    "name": "Traumatic or nontraumatic brain injury",
+                                    "children": [
+                                        {
+                                            "snomed_id": "230690007",
+                                            "name": "Cerebrovascular accident",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "snomed_id": "389100007",
+                                            "name": "Ischemic encephalopathy",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "snomed_id": "82271004",
+                            "name": "Injury of head",
+                            "children": [
+                                {
+                                    "snomed_id": "127296001",
+                                    "name": "Intracranial injury",
+                                    "children": [
+                                        {
+                                            "snomed_id": "127294003",
+                                            "name": "Traumatic or nontraumatic brain injury",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "230690007",
+                                                    "name": "Cerebrovascular accident",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "422504002",
+                                                            "name": "Ischemic stroke",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "389100007",
+                                                    "name": "Ischemic encephalopathy",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "422504002",
+                                                            "name": "Ischemic stroke",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "snomed_id": "299735001",
+            "name": "Neurological lesion",
+            "children": [
+                {
+                    "snomed_id": "301766008",
+                    "name": "Lesion of brain",
+                    "children": [
+                        {
+                            "snomed_id": "230690007",
+                            "name": "Cerebrovascular accident",
+                            "children": [
+                                {
+                                    "snomed_id": "422504002",
+                                    "name": "Ischemic stroke",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "snomed_id": "389100007",
+                            "name": "Ischemic encephalopathy",
+                            "children": [
+                                {
+                                    "snomed_id": "422504002",
+                                    "name": "Ischemic stroke",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "snomed_id": "246556002",
+            "name": "Central nervous system finding",
+            "children": [
+                {
+                    "snomed_id": "23853001",
+                    "name": "Disorder of the central nervous system",
+                    "children": [
+                        {
+                            "snomed_id": "87536007",
+                            "name": "Central nervous system complication",
+                            "children": [
+                                {
+                                    "snomed_id": "422504002",
+                                    "name": "Ischemic stroke",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "snomed_id": "128126004",
+                            "name": "Injury of central nervous system",
+                            "children": [
+                                {
+                                    "snomed_id": "127294003",
+                                    "name": "Traumatic or nontraumatic brain injury",
+                                    "children": [
+                                        {
+                                            "snomed_id": "230690007",
+                                            "name": "Cerebrovascular accident",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "snomed_id": "389100007",
+                                            "name": "Ischemic encephalopathy",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "snomed_id": "81308009",
+                            "name": "Disorder of brain",
+                            "children": [
+                                {
+                                    "snomed_id": "301766008",
+                                    "name": "Lesion of brain",
+                                    "children": [
+                                        {
+                                            "snomed_id": "230690007",
+                                            "name": "Cerebrovascular accident",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "snomed_id": "389100007",
+                                            "name": "Ischemic encephalopathy",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "snomed_id": "127294003",
+                                    "name": "Traumatic or nontraumatic brain injury",
+                                    "children": [
+                                        {
+                                            "snomed_id": "230690007",
+                                            "name": "Cerebrovascular accident",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "snomed_id": "389100007",
+                                            "name": "Ischemic encephalopathy",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "snomed_id": "299718000",
+                    "name": "Finding of brain",
+                    "children": [
+                        {
+                            "snomed_id": "81308009",
+                            "name": "Disorder of brain",
+                            "children": [
+                                {
+                                    "snomed_id": "301766008",
+                                    "name": "Lesion of brain",
+                                    "children": [
+                                        {
+                                            "snomed_id": "230690007",
+                                            "name": "Cerebrovascular accident",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "snomed_id": "389100007",
+                                            "name": "Ischemic encephalopathy",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "snomed_id": "127294003",
+                                    "name": "Traumatic or nontraumatic brain injury",
+                                    "children": [
+                                        {
+                                            "snomed_id": "230690007",
+                                            "name": "Cerebrovascular accident",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "snomed_id": "389100007",
+                                            "name": "Ischemic encephalopathy",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "snomed_id": "106063007",
+            "name": "Cardiovascular finding",
+            "children": [
+                {
+                    "snomed_id": "49601007",
+                    "name": "Disorder of cardiovascular system",
+                    "children": [
+                        {
+                            "snomed_id": "282728007",
+                            "name": "Cardiovascular injury",
+                            "children": [
+                                {
+                                    "snomed_id": "230690007",
+                                    "name": "Cerebrovascular accident",
+                                    "children": [
+                                        {
+                                            "snomed_id": "422504002",
+                                            "name": "Ischemic stroke",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "snomed_id": "62914000",
+                            "name": "Cerebrovascular disease",
+                            "children": [
+                                {
+                                    "snomed_id": "230690007",
+                                    "name": "Cerebrovascular accident",
+                                    "children": [
+                                        {
+                                            "snomed_id": "422504002",
+                                            "name": "Ischemic stroke",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "snomed_id": "64572001",
+            "name": "Disease",
+            "children": [
+                {
+                    "snomed_id": "417163006",
+                    "name": "Traumatic or non-traumatic injury",
+                    "children": [
+                        {
+                            "snomed_id": "897601009",
+                            "name": "Injury of head and/or neck",
+                            "children": [
+                                {
+                                    "snomed_id": "82271004",
+                                    "name": "Injury of head",
+                                    "children": [
+                                        {
+                                            "snomed_id": "127296001",
+                                            "name": "Intracranial injury",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "127294003",
+                                                    "name": "Traumatic or nontraumatic brain injury",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "230690007",
+                                                            "name": "Cerebrovascular accident",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "422504002",
+                                                                    "name": "Ischemic stroke",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "389100007",
+                                                            "name": "Ischemic encephalopathy",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "422504002",
+                                                                    "name": "Ischemic stroke",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "snomed_id": "282728007",
+                            "name": "Cardiovascular injury",
+                            "children": [
+                                {
+                                    "snomed_id": "230690007",
+                                    "name": "Cerebrovascular accident",
+                                    "children": [
+                                        {
+                                            "snomed_id": "422504002",
+                                            "name": "Ischemic stroke",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "snomed_id": "128239009",
+                            "name": "Injury of nervous system",
+                            "children": [
+                                {
+                                    "snomed_id": "128126004",
+                                    "name": "Injury of central nervous system",
+                                    "children": [
+                                        {
+                                            "snomed_id": "127294003",
+                                            "name": "Traumatic or nontraumatic brain injury",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "230690007",
+                                                    "name": "Cerebrovascular accident",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "422504002",
+                                                            "name": "Ischemic stroke",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "389100007",
+                                                    "name": "Ischemic encephalopathy",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "422504002",
+                                                            "name": "Ischemic stroke",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "snomed_id": "609410002",
+                            "name": "Necrosis of anatomical site",
+                            "children": [
+                                {
+                                    "snomed_id": "422504002",
+                                    "name": "Ischemic stroke",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "snomed_id": "362965005",
+                    "name": "Disorder of body system",
+                    "children": [
+                        {
+                            "snomed_id": "118940003",
+                            "name": "Disorder of nervous system",
+                            "children": [
+                                {
+                                    "snomed_id": "128239009",
+                                    "name": "Injury of nervous system",
+                                    "children": [
+                                        {
+                                            "snomed_id": "128126004",
+                                            "name": "Injury of central nervous system",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "127294003",
+                                                    "name": "Traumatic or nontraumatic brain injury",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "230690007",
+                                                            "name": "Cerebrovascular accident",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "422504002",
+                                                                    "name": "Ischemic stroke",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "389100007",
+                                                            "name": "Ischemic encephalopathy",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "422504002",
+                                                                    "name": "Ischemic stroke",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "snomed_id": "23853001",
+                                    "name": "Disorder of the central nervous system",
+                                    "children": [
+                                        {
+                                            "snomed_id": "87536007",
+                                            "name": "Central nervous system complication",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "snomed_id": "128126004",
+                                            "name": "Injury of central nervous system",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "127294003",
+                                                    "name": "Traumatic or nontraumatic brain injury",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "230690007",
+                                                            "name": "Cerebrovascular accident",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "422504002",
+                                                                    "name": "Ischemic stroke",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "389100007",
+                                                            "name": "Ischemic encephalopathy",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "422504002",
+                                                                    "name": "Ischemic stroke",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "snomed_id": "81308009",
+                                            "name": "Disorder of brain",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "301766008",
+                                                    "name": "Lesion of brain",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "230690007",
+                                                            "name": "Cerebrovascular accident",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "422504002",
+                                                                    "name": "Ischemic stroke",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "389100007",
+                                                            "name": "Ischemic encephalopathy",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "422504002",
+                                                                    "name": "Ischemic stroke",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "127294003",
+                                                    "name": "Traumatic or nontraumatic brain injury",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "230690007",
+                                                            "name": "Cerebrovascular accident",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "422504002",
+                                                                    "name": "Ischemic stroke",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "389100007",
+                                                            "name": "Ischemic encephalopathy",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "422504002",
+                                                                    "name": "Ischemic stroke",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "snomed_id": "49601007",
+                            "name": "Disorder of cardiovascular system",
+                            "children": [
+                                {
+                                    "snomed_id": "282728007",
+                                    "name": "Cardiovascular injury",
+                                    "children": [
+                                        {
+                                            "snomed_id": "230690007",
+                                            "name": "Cerebrovascular accident",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "snomed_id": "62914000",
+                                    "name": "Cerebrovascular disease",
+                                    "children": [
+                                        {
+                                            "snomed_id": "230690007",
+                                            "name": "Cerebrovascular accident",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "snomed_id": "118934005",
+                    "name": "Disorder of head",
+                    "children": [
+                        {
+                            "snomed_id": "81308009",
+                            "name": "Disorder of brain",
+                            "children": [
+                                {
+                                    "snomed_id": "301766008",
+                                    "name": "Lesion of brain",
+                                    "children": [
+                                        {
+                                            "snomed_id": "230690007",
+                                            "name": "Cerebrovascular accident",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "snomed_id": "389100007",
+                                            "name": "Ischemic encephalopathy",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "snomed_id": "127294003",
+                                    "name": "Traumatic or nontraumatic brain injury",
+                                    "children": [
+                                        {
+                                            "snomed_id": "230690007",
+                                            "name": "Cerebrovascular accident",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "snomed_id": "389100007",
+                                            "name": "Ischemic encephalopathy",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "422504002",
+                                                    "name": "Ischemic stroke",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "snomed_id": "82271004",
+                            "name": "Injury of head",
+                            "children": [
+                                {
+                                    "snomed_id": "127296001",
+                                    "name": "Intracranial injury",
+                                    "children": [
+                                        {
+                                            "snomed_id": "127294003",
+                                            "name": "Traumatic or nontraumatic brain injury",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "230690007",
+                                                    "name": "Cerebrovascular accident",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "422504002",
+                                                            "name": "Ischemic stroke",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "389100007",
+                                                    "name": "Ischemic encephalopathy",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "422504002",
+                                                            "name": "Ischemic stroke",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

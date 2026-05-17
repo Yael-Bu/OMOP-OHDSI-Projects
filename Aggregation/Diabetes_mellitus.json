@@ -1,0 +1,666 @@
+{
+    "snomed_id": "404684003",
+    "name": "Clinical finding",
+    "children": [
+        {
+            "snomed_id": "64572001",
+            "name": "Disease",
+            "children": [
+                {
+                    "snomed_id": "75934005",
+                    "name": "Metabolic disease",
+                    "children": [
+                        {
+                            "snomed_id": "20957000",
+                            "name": "Disorder of carbohydrate metabolism",
+                            "children": [
+                                {
+                                    "snomed_id": "126877002",
+                                    "name": "Disorder of glucose metabolism",
+                                    "children": [
+                                        {
+                                            "snomed_id": "73211009",
+                                            "name": "Diabetes mellitus",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "890171006",
+                                                    "name": "Ketosis-prone diabetes mellitus",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "snomed_id": "405749004",
+                                                    "name": "Newly diagnosed diabetes",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "870528001",
+                                                            "name": "Newly diagnosed type 1 diabetes mellitus",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "46635009",
+                                                    "name": "Type 1 diabetes mellitus",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "1290118005",
+                                                            "name": "Presymptomatic type 1 diabetes mellitus",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "444074000",
+                                                            "name": "Well controlled type 1 diabetes mellitus",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "70694009",
+                                                            "name": "Wolfram syndrome",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "1285518004",
+                                                                    "name": "Wolfram syndrome type 1",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "1285519007",
+                                                                    "name": "Wolfram syndrome type 2",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "721121000124104",
+                                                            "name": "Diabetes mellitus type 1 stage 2",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "1217068008",
+                                                            "name": "Fulminant type 1 diabetes mellitus",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "1255271005",
+                                                            "name": "Juvenile-onset diabetes mellitus, central and peripheral neurodegeneration syndrome",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "721111000124107",
+                                                            "name": "Diabetes mellitus type 1 stage 1",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "721201000124104",
+                                                            "name": "Diabetes mellitus type 1 stage 3",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "703137001",
+                                                            "name": "Type I diabetes mellitus in remission",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "426875007",
+                                                            "name": "Latent autoimmune diabetes mellitus in adult",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "722454003",
+                                                            "name": "Intellectual disability, craniofacial dysmorphism, hypogonadism, diabetes mellitus syndrome",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "23045005",
+                                                            "name": "Insulin dependent diabetes mellitus type 1A",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "28032008",
+                                                            "name": "Insulin dependent diabetes mellitus type 1B",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "190372001",
+                                                            "name": "Type 1 diabetes mellitus maturity onset",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "190368000",
+                                                            "name": "Type 1 diabetes mellitus with ulcer",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "31321000119102",
+                                                            "name": "Diabetes mellitus type 1 without retinopathy",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "609566000",
+                                                            "name": "Pregnancy and type 1 diabetes mellitus",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "609564002",
+                                                                    "name": "Pre-existing type 1 diabetes mellitus in pregnancy",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "199229001",
+                                                            "name": "Pre-existing type 1 diabetes mellitus",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "703136005",
+                                                    "name": "Diabetes mellitus in remission",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "703138006",
+                                                            "name": "Type II diabetes mellitus in remission",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "716362006",
+                                                    "name": "Gingival disease co-occurrent with diabetes mellitus",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "709147009",
+                                                            "name": "Gingivitis co-occurrent with diabetes mellitus",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "335621000000101",
+                                                    "name": "Maternally inherited diabetes mellitus",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "snomed_id": "609568004",
+                                                    "name": "Diabetes mellitus due to genetic defect in beta cell function",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "609561005",
+                                                            "name": "Maturity-onset diabetes of the young",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "609575003",
+                                                                    "name": "Maturity-onset diabetes of the young, type 8",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "609574004",
+                                                                    "name": "Maturity-onset diabetes of the young, type 7",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "609572000",
+                                                                    "name": "Maturity-onset diabetes of the young, type 5",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "609571007",
+                                                                    "name": "Maturity-onset diabetes of the young, type 4",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "609570008",
+                                                                    "name": "Maturity-onset diabetes of the young, type 3",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "237604008",
+                                                                    "name": "Maturity onset diabetes of the young, type 2",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "609576002",
+                                                                    "name": "Maturity-onset diabetes of the young, type 9",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "609573005",
+                                                                    "name": "Maturity-onset diabetes of the young, type 6",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "609562003",
+                                                                    "name": "Maturity onset diabetes of the young, type 1",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "609578001",
+                                                                    "name": "Maturity-onset diabetes of the young, type 11",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "609577006",
+                                                                    "name": "Maturity-onset diabetes of the young, type 10",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "49817004",
+                                                            "name": "Neonatal diabetes mellitus",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "1303868000",
+                                                                    "name": "Intermediate DEND syndrome",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "721088003",
+                                                                    "name": "DEND syndrome",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "237603002",
+                                                                    "name": "Transient neonatal diabetes mellitus",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "609565001",
+                                                                    "name": "Permanent neonatal diabetes mellitus",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "44054006",
+                                                    "name": "Type 2 diabetes mellitus",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "444110003",
+                                                            "name": "Well controlled type 2 diabetes mellitus",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "201000119106",
+                                                                    "name": "Disorder due to well controlled type 2 diabetes mellitus",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "164971000119101",
+                                                                    "name": "Type 2 diabetes mellitus controlled by diet",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "1217044000",
+                                                            "name": "Ketosis-resistant diabetes mellitus",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "237599002",
+                                                            "name": "Insulin treated type 2 diabetes mellitus",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "359642000",
+                                                            "name": "Type 2 diabetes mellitus in nonobese",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "1481000119100",
+                                                            "name": "Diabetes mellitus type 2 without retinopathy",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "190389009",
+                                                            "name": "Type 2 diabetes mellitus with ulcer",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "237627000",
+                                                            "name": "Pregnancy and type 2 diabetes mellitus",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "609567009",
+                                                                    "name": "Pre-existing type 2 diabetes mellitus in pregnancy",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "81531005",
+                                                            "name": "Type 2 diabetes mellitus in obese",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "199230006",
+                                                            "name": "Pre-existing type 2 diabetes mellitus",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "199223000",
+                                                    "name": "Diabetes mellitus during pregnancy, childbirth and the puerperium",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "11687002",
+                                                            "name": "Gestational diabetes mellitus",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "75022004",
+                                                                    "name": "Gestational diabetes mellitus class A1",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "10753491000119101",
+                                                                    "name": "Gestational diabetes mellitus in childbirth",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "46894009",
+                                                                    "name": "Gestational diabetes mellitus class A2",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "40791000119105",
+                                                                    "name": "Postpartum gestational diabetes mellitus",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "40801000119106",
+                                                                    "name": "Gestational diabetes mellitus complicating pregnancy",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "609563008",
+                                                            "name": "Pre-existing diabetes mellitus in pregnancy",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "76751001",
+                                                            "name": "Diabetes mellitus in mother complicating pregnancy, childbirth AND/OR puerperium",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "4783006",
+                                                                    "name": "Maternal diabetes mellitus with hypoglycemia affecting fetus OR newborn",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "10754881000119104",
+                                                                    "name": "Diabetes mellitus in mother complicating childbirth",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "8801005",
+                                                    "name": "Secondary diabetes mellitus",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "782755007",
+                                                            "name": "Primary microcephaly, mild intellectual disability, young-onset diabetes syndrome",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "720519003",
+                                                            "name": "Atherosclerosis, deafness, diabetes, epilepsy, nephropathy syndrome",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "276560009",
+                                                            "name": "Diabetes mellitus in neonate small for gestational age",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "237601000",
+                                                            "name": "Secondary endocrine diabetes mellitus",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "59079001",
+                                                            "name": "Diabetes mellitus associated with hormonal etiology",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "5969009",
+                                                            "name": "Diabetes mellitus associated with genetic syndrome",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "33559001",
+                                                                    "name": "Rabson-Mendenhall syndrome",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "816067005",
+                                                                    "name": "Woodhouse Sakati syndrome",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "237619009",
+                                                                    "name": "Maternally inherited diabetes and deafness",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "783722008",
+                                                                    "name": "Myopathy and diabetes mellitus",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "734022008",
+                                                                    "name": "Wolfram-like syndrome",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "237617006",
+                                                                    "name": "Megaloblastic anemia, thiamine-responsive, with diabetes mellitus and sensorineural deafness",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "427089005",
+                                                                    "name": "Diabetes mellitus due to cystic fibrosis",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "426705001",
+                                                                    "name": "Diabetes mellitus associated with cystic fibrosis",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "237612000",
+                                                                    "name": "Photomyoclonus, diabetes mellitus, deafness, nephropathy and cerebral dysfunction",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "1197592001",
+                                                                    "name": "Intrauterine growth restriction, short stature, early adult-onset diabetes syndrome",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "237611007",
+                                                                    "name": "Muscular atrophy, ataxia, retinitis pigmentosa, and diabetes mellitus",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "737212004",
+                                                            "name": "Diabetes mellitus caused by chemical",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "75682002",
+                                                                    "name": "Diabetes mellitus caused by insulin receptor antibodies",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "190447002",
+                                                                    "name": "Steroid-induced diabetes",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "51002006",
+                                                            "name": "Diabetes mellitus associated with pancreatic disease",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "2751001",
+                                                                    "name": "Fibrocalculous pancreatic diabetes",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "91352004",
+                                                                    "name": "Diabetes mellitus due to structurally abnormal insulin",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "5368009",
+                                                            "name": "Drug-induced diabetes mellitus",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "408540003",
+                                                                    "name": "Diabetes mellitus induced by non-steroid drugs",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "367391000119102",
+                                                                    "name": "Diabetes mellitus caused by drug without complication",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "75524006",
+                                                            "name": "Malnutrition related diabetes mellitus",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "57886004",
+                                                                    "name": "Protein-deficient diabetes mellitus",
+                                                                    "children": []
+                                                                },
+                                                                {
+                                                                    "snomed_id": "199231005",
+                                                                    "name": "Pre-existing malnutrition-related diabetes mellitus",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "42954008",
+                                                            "name": "Diabetes mellitus associated with receptor abnormality",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "445260006",
+                                                            "name": "Posttransplant diabetes mellitus",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "385041000000108",
+                                                    "name": "Diabetes mellitus with multiple complications",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "snomed_id": "733072002",
+                                                    "name": "Stimmler syndrome",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "snomed_id": "123763000",
+                                                    "name": "Houssay's syndrome",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "snomed_id": "385051000000106",
+                                                    "name": "Pre-existing diabetes mellitus",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "snomed_id": "530558861000132104",
+                                                    "name": "Atypical diabetes mellitus",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "snomed_id": "105401000119101",
+                                                    "name": "Diabetes mellitus due to pancreatic injury",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "snomed_id": "722206009",
+                                                    "name": "Pancreatic hypoplasia, diabetes mellitus, congenital heart disease syndrome",
+                                                    "children": []
+                                                },
+                                                {
+                                                    "snomed_id": "609569007",
+                                                    "name": "Diabetes mellitus due to genetic defect in insulin action",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "127012008",
+                                                            "name": "Lipoatrophic diabetes",
+                                                            "children": [
+                                                                {
+                                                                    "snomed_id": "112991000000101",
+                                                                    "name": "Lipoatrophic diabetes mellitus without complication",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "snomed_id": "24203005",
+                                                            "name": "Extreme insulin resistance with acanthosis nigricans, hirsutism AND abnormal insulin receptors",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "237651005",
+                                                            "name": "Insulin resistance - type A",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "111307005",
+                                                            "name": "Leprechaunism syndrome",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "snomed_id": "237652003",
+                                                            "name": "Insulin resistance - type B",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "snomed_id": "362965005",
+                    "name": "Disorder of body system",
+                    "children": [
+                        {
+                            "snomed_id": "362969004",
+                            "name": "Disorder of endocrine system",
+                            "children": [
+                                {
+                                    "snomed_id": "73211009",
+                                    "name": "Diabetes mellitus",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

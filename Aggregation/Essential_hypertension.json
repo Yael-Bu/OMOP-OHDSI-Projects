@@ -1,0 +1,155 @@
+{
+    "snomed_id": "404684003",
+    "name": "Clinical finding",
+    "children": [
+        {
+            "snomed_id": "106063007",
+            "name": "Cardiovascular finding",
+            "children": [
+                {
+                    "snomed_id": "366157005",
+                    "name": "Cardiovascular measurement - finding",
+                    "children": [
+                        {
+                            "snomed_id": "38341003",
+                            "name": "Hypertensive disorder",
+                            "children": [
+                                {
+                                    "snomed_id": "59621000",
+                                    "name": "Essential hypertension",
+                                    "children": [
+                                        {
+                                            "snomed_id": "371125006",
+                                            "name": "Labile essential hypertension",
+                                            "children": []
+                                        },
+                                        {
+                                            "snomed_id": "72022006",
+                                            "name": "Essential hypertension in obstetric context",
+                                            "children": [
+                                                {
+                                                    "snomed_id": "9901000",
+                                                    "name": "Essential hypertension complicating AND/OR reason for care during puerperium",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "35303009",
+                                                            "name": "Benign essential hypertension complicating AND/OR reason for care during puerperium",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "18416000",
+                                                    "name": "Essential hypertension complicating AND/OR reason for care during childbirth",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "71874008",
+                                                            "name": "Benign essential hypertension complicating AND/OR reason for care during childbirth",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "78808002",
+                                                    "name": "Essential hypertension complicating AND/OR reason for care during pregnancy",
+                                                    "children": [
+                                                        {
+                                                            "snomed_id": "23717007",
+                                                            "name": "Benign essential hypertension complicating AND/OR reason for care during pregnancy",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "snomed_id": "63287004",
+                                                    "name": "Benign essential hypertension in obstetric context",
+                                                    "children": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "snomed_id": "78975002",
+                                            "name": "Malignant essential hypertension",
+                                            "children": []
+                                        },
+                                        {
+                                            "snomed_id": "46481004",
+                                            "name": "Low-renin essential hypertension",
+                                            "children": []
+                                        },
+                                        {
+                                            "snomed_id": "40511000119107",
+                                            "name": "Postpartum pre-existing essential hypertension",
+                                            "children": []
+                                        },
+                                        {
+                                            "snomed_id": "429457004",
+                                            "name": "Systolic essential hypertension",
+                                            "children": []
+                                        },
+                                        {
+                                            "snomed_id": "19769006",
+                                            "name": "High-renin essential hypertension",
+                                            "children": []
+                                        },
+                                        {
+                                            "snomed_id": "1201005",
+                                            "name": "Benign essential hypertension",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "snomed_id": "49601007",
+                    "name": "Disorder of cardiovascular system",
+                    "children": [
+                        {
+                            "snomed_id": "38341003",
+                            "name": "Hypertensive disorder",
+                            "children": [
+                                {
+                                    "snomed_id": "59621000",
+                                    "name": "Essential hypertension",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "snomed_id": "64572001",
+            "name": "Disease",
+            "children": [
+                {
+                    "snomed_id": "362965005",
+                    "name": "Disorder of body system",
+                    "children": [
+                        {
+                            "snomed_id": "49601007",
+                            "name": "Disorder of cardiovascular system",
+                            "children": [
+                                {
+                                    "snomed_id": "38341003",
+                                    "name": "Hypertensive disorder",
+                                    "children": [
+                                        {
+                                            "snomed_id": "59621000",
+                                            "name": "Essential hypertension",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
