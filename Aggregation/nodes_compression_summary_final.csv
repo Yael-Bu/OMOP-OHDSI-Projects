@@ -1,0 +1,5 @@
+Source Vocabulary,Aggregation Method,Nodes Before Aggregation,Nodes After Aggregation,Absolute Node Reduction,Reduction Percentage
+ICD-9,CCS (Single-Level),14088,281,13807,98.01%
+ICD-10,CCSR (Default IP),75725,496,75229,99.34%
+SNOMED,Built-in Tree (Lvl 2),347662,50542,297120,85.46%
+SNOMED,CCSR (via ICD-10),13987,495,13492,96.46%
