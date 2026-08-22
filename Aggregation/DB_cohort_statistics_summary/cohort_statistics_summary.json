@@ -1,0 +1,14 @@
+{
+    "total_patients_in_db": 259770,
+    "total_visit_occurrences": 2344230,
+    "total_condition_records": 4234781,
+    "unique_condition_concepts": 10230,
+    "patients_with_diagnoses": 180368,
+    "patients_with_at_least_2_visits": 167116,
+    "patients_with_at_least_5_visits": 93349,
+    "mean_visits_per_patient": 9.024252223120452,
+    "median_visits_per_patient": 2.0,
+    "mean_age_at_visit": 51.38045754513647,
+    "std_age_at_visit": 20.859612772235366,
+    "median_age_and_iqr": "51.8 (IQR: 32.3 - 68.0)"
+}

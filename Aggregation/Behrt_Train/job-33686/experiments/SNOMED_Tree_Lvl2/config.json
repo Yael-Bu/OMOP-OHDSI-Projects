@@ -1,0 +1,12 @@
+{
+    "experiment_name": "SNOMED_Tree_Lvl2",
+    "slurm_job_id": "33688",
+    "best_epoch": 18,
+    "parameters": {
+        "name": "SNOMED_Tree_Lvl2",
+        "csv": "mapping_snomed_tree_lvl2.csv",
+        "src_col": "source_snomed_code",
+        "tgt_col": "parent_snomed_code",
+        "pos_weight": 15.0
+    }
+}

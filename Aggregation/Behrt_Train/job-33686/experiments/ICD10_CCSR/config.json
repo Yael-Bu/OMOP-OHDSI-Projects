@@ -1,0 +1,12 @@
+{
+    "experiment_name": "ICD10_CCSR",
+    "slurm_job_id": "33688",
+    "best_epoch": 19,
+    "parameters": {
+        "name": "ICD10_CCSR",
+        "csv": "mapping_icd10_to_ccsr.csv",
+        "src_col": "icd_code",
+        "tgt_col": "target_ccsr",
+        "pos_weight": 5.0
+    }
+}

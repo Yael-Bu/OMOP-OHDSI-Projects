@@ -1,0 +1,12 @@
+{
+    "Loss": 0.49335588023383564,
+    "MRR": 0.7397165410469058,
+    "Recall@10": 0.4212661533235519,
+    "Recall@20": 0.5592356618614694,
+    "Recall@Top_1% (K=7)": 0.3505134680337785,
+    "Recall@Top_5% (K=36)": 0.6745251004483298,
+    "Macro_PR_AUC": 0.08615111047451311,
+    "Vocab_Size": 729,
+    "Best_Epoch": 20,
+    "Aggregation_Name": "SNOMED_CCSR_Ancestors"
+}

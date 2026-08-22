@@ -1,0 +1,12 @@
+{
+    "experiment_name": "10_BASELINE_Raw_SNOMED",
+    "slurm_job_id": "33735",
+    "best_epoch": 19,
+    "parameters": {
+        "name": "10_BASELINE_Raw_SNOMED",
+        "csv": null,
+        "src_col": null,
+        "tgt_col": null,
+        "pos_weight": 25.0
+    }
+}

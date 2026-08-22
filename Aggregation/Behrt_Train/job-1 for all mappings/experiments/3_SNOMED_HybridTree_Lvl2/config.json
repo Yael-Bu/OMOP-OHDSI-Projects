@@ -1,0 +1,12 @@
+{
+    "experiment_name": "3_SNOMED_HybridTree_Lvl2",
+    "slurm_job_id": "33735",
+    "best_epoch": 19,
+    "parameters": {
+        "name": "3_SNOMED_HybridTree_Lvl2",
+        "csv": "mapping_snomed_tree_lvl2_hybrid_ohdsi.csv",
+        "src_col": "source_snomed_code",
+        "tgt_col": "parent_snomed_code",
+        "pos_weight": 25.0
+    }
+}

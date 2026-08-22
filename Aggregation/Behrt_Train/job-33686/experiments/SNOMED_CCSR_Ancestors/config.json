@@ -1,0 +1,12 @@
+{
+    "experiment_name": "SNOMED_CCSR_Ancestors",
+    "slurm_job_id": "33688",
+    "best_epoch": 20,
+    "parameters": {
+        "name": "SNOMED_CCSR_Ancestors",
+        "csv": "mapping_snomed_to_ccsr_with_ancestors.csv",
+        "src_col": "source_snomed_code",
+        "tgt_col": "target_ccsr_code",
+        "pos_weight": 5.0
+    }
+}

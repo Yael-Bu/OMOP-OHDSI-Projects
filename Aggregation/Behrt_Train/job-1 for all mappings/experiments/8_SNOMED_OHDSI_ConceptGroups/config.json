@@ -1,0 +1,12 @@
+{
+    "experiment_name": "8_SNOMED_OHDSI_ConceptGroups",
+    "slurm_job_id": "33735",
+    "best_epoch": 20,
+    "parameters": {
+        "name": "8_SNOMED_OHDSI_ConceptGroups",
+        "csv": "mapping_snomed_ohdsi_concept_groups.csv",
+        "src_col": "source_snomed_code",
+        "tgt_col": "target_group_code",
+        "pos_weight": 25.0
+    }
+}
