@@ -1,0 +1,12 @@
+{
+    "experiment_name": "6_SNOMED_CCSR_DefaultIP_Fallback",
+    "slurm_job_id": "33735",
+    "best_epoch": 19,
+    "parameters": {
+        "name": "6_SNOMED_CCSR_DefaultIP_Fallback",
+        "csv": "mapping_snomed_to_ccsr_default_ip_with_ancestors_fallback.csv",
+        "src_col": "source_snomed_code",
+        "tgt_col": "target_ccsr_code",
+        "pos_weight": 20.0
+    }
+}

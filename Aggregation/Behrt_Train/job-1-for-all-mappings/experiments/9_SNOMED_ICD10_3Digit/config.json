@@ -1,0 +1,12 @@
+{
+    "experiment_name": "9_SNOMED_ICD10_3Digit",
+    "slurm_job_id": "33735",
+    "best_epoch": 17,
+    "parameters": {
+        "name": "9_SNOMED_ICD10_3Digit",
+        "csv": "mapping_snomed_to_icd10_3digit.csv",
+        "src_col": "source_snomed_code",
+        "tgt_col": "target_icd10_3digit",
+        "pos_weight": 25.0
+    }
+}

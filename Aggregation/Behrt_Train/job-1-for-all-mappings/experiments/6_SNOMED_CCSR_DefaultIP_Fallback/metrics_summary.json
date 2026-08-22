@@ -1,0 +1,18 @@
+{
+    "Loss": 0.27017927502698086,
+    "MRR": 0.8426456529158346,
+    "Recall@10": 0.4414784729949343,
+    "Recall@20": 0.5685055435796034,
+    "Recall@Top_1% (K=8)": 0.40110349882886087,
+    "Recall@Top_5% (K=43)": 0.712947512056822,
+    "Macro_PR_AUC": 0.1272492651374491,
+    "Micro_PR_AUC": 0.4184765320379519,
+    "Macro_AUROC": 0.8015618342395885,
+    "Micro_AUROC": 0.9383287834266265,
+    "Macro_Precision": 0.08328097748918831,
+    "Macro_Recall": 0.2940549936260802,
+    "Macro_F1": 0.11715322407556708,
+    "Vocab_Size": 863,
+    "Best_Epoch": 19,
+    "Aggregation_Name": "6_SNOMED_CCSR_DefaultIP_Fallback"
+}

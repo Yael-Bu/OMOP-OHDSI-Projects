@@ -1,0 +1,10 @@
+Source Vocabulary,Aggregation Method,Nodes Before Aggregation,Nodes After Aggregation,Absolute Node Reduction,Reduction Percentage
+ICD-9,CCS (Single-Level),14088,281,13807,98.01%
+ICD-10,CCSR (Default IP),75725,496,75229,99.34%
+SNOMED (Condition),Hybrid Tree (Max Lvl 2),105324,26643,78681,74.70%
+SNOMED (Condition),Hybrid Tree (Max Lvl 3),105324,16016,89308,84.79%
+SNOMED (Condition),Hybrid Tree (Max Lvl 4),105324,10599,94725,89.94%
+SNOMED (Condition),CCSR (Default IP + Fallback),164575,78924,85651,52.04%
+SNOMED (Condition),CCSR (Multi-Category 1:N + Fallback),164575,78978,85597,52.01%
+SNOMED (Condition),OHDSI Standard Concept Groups,164575,162594,1981,1.20%
+SNOMED (Condition),ICD-10 3-Digit Categories,164575,152969,11606,7.05%

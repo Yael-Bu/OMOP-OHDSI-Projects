@@ -1,0 +1,12 @@
+{
+    "experiment_name": "1_ICD9_CCS_SingleLevel",
+    "slurm_job_id": "33735",
+    "best_epoch": 18,
+    "parameters": {
+        "name": "1_ICD9_CCS_SingleLevel",
+        "csv": "mapping_icd9_to_ccs.csv",
+        "src_col": "icd_code",
+        "tgt_col": "target_ccs",
+        "pos_weight": 4.0
+    }
+}
