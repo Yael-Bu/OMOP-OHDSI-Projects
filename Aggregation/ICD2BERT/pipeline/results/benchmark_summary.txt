@@ -1,0 +1,18 @@
+
+================ Mode: omop_raw (Vocab: 10,235 | Best MLM Epoch: 57) ================
+MLM Quality (Val):       Loss=3.1220 | PPL=22.69 | Top-1=42.70% | Top-5=59.82% | Top-10=67.19%
+Mortality AUROC:         0.7990 +/- 0.0013 (95% CI: 0.7965-0.8009)
+Rehospitalization AUROC: 0.6283 +/- 0.0016 (95% CI: 0.6255-0.6305)
+Future Disease AUROC:    0.6873 +/- 0.0003 (95% CI: 0.6869-0.6877)
+
+================ Mode: omop_aggregated (Vocab: 1,226 | Best MLM Epoch: 60) ================
+MLM Quality (Val):       Loss=2.4422 | PPL=11.50 | Top-1=44.32% | Top-5=67.76% | Top-10=77.77%
+Mortality AUROC:         0.7754 +/- 0.0013 (95% CI: 0.7736-0.7775)
+Rehospitalization AUROC: 0.6122 +/- 0.0016 (95% CI: 0.6093-0.6145)
+Future Disease AUROC:    0.6744 +/- 0.0004 (95% CI: 0.6737-0.6751)
+
+================ Mode: mimic (Vocab: 25,834 | Best MLM Epoch: 60) ================
+MLM Quality (Val):       Loss=3.6327 | PPL=37.81 | Top-1=37.40% | Top-5=53.97% | Top-10=61.32%
+Mortality AUROC:         0.8214 +/- 0.0014 (95% CI: 0.8194-0.8242)
+Rehospitalization AUROC: 0.6806 +/- 0.0017 (95% CI: 0.6786-0.6834)
+Future Disease AUROC:    0.7929 +/- 0.0005 (95% CI: 0.7923-0.7936)

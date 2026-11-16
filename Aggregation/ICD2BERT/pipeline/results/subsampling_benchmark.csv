@@ -1,0 +1,37 @@
+Mode,Task,Train_Pct,Samples,AUROC_Mean,AUROC_Std
+mimic,Mortality,10%,5557,0.8103,0.0022
+mimic,Mortality,25%,13893,0.8176,0.0012
+mimic,Mortality,50%,27787,0.8206,0.001
+mimic,Mortality,100%,55575,0.8213,0.0015
+mimic,Rehospitalization (30d),10%,5557,0.6677,0.0029
+mimic,Rehospitalization (30d),25%,13893,0.6753,0.0027
+mimic,Rehospitalization (30d),50%,27787,0.6795,0.0028
+mimic,Rehospitalization (30d),100%,55575,0.6797,0.0023
+mimic,Future Disease (Macro),10%,5557,0.7782,0.0013
+mimic,Future Disease (Macro),25%,13893,0.7861,0.0059
+mimic,Future Disease (Macro),50%,27787,0.7901,0.0062
+mimic,Future Disease (Macro),100%,55575,0.7889,0.0009
+omop_raw,Mortality,10%,5546,0.792,0.0028
+omop_raw,Mortality,25%,13865,0.7968,0.002
+omop_raw,Mortality,50%,27731,0.7995,0.0013
+omop_raw,Mortality,100%,55463,0.7996,0.0017
+omop_raw,Rehospitalization (30d),10%,5546,0.6138,0.0034
+omop_raw,Rehospitalization (30d),25%,13865,0.6192,0.0021
+omop_raw,Rehospitalization (30d),50%,27731,0.6227,0.0022
+omop_raw,Rehospitalization (30d),100%,55463,0.6233,0.0021
+omop_raw,Future Disease (Macro),10%,5546,0.5882,0.0014
+omop_raw,Future Disease (Macro),25%,13865,0.5899,0.0008
+omop_raw,Future Disease (Macro),50%,27731,0.5907,0.0009
+omop_raw,Future Disease (Macro),100%,55463,0.5904,0.0003
+omop_aggregated,Mortality,10%,5546,0.7634,0.0047
+omop_aggregated,Mortality,25%,13865,0.77,0.0033
+omop_aggregated,Mortality,50%,27731,0.7731,0.0013
+omop_aggregated,Mortality,100%,55463,0.7745,0.0016
+omop_aggregated,Rehospitalization (30d),10%,5546,0.5926,0.0039
+omop_aggregated,Rehospitalization (30d),25%,13865,0.5984,0.0018
+omop_aggregated,Rehospitalization (30d),50%,27731,0.6014,0.0022
+omop_aggregated,Rehospitalization (30d),100%,55463,0.6034,0.0018
+omop_aggregated,Future Disease (Macro),10%,5546,0.5899,0.0011
+omop_aggregated,Future Disease (Macro),25%,13865,0.5907,0.0006
+omop_aggregated,Future Disease (Macro),50%,27731,0.5908,0.0007
+omop_aggregated,Future Disease (Macro),100%,55463,0.5901,0.0005
