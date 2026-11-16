@@ -1,0 +1,25 @@
+# Raw medical datasets (MIMIC-IV / OMOP CDM)
+**/data/
+data/
+*.csv.gz
+
+# Heavy model checkpoints, embeddings & classifiers (>50MB)
+**/*.pt
+**/*.npz
+**/*.pkl
+
+# Backups, SLURM logs & archived legacy scripts
+**/results_backup_*/
+**/logs/
+logs/
+**/archive_original_repo/
+
+# Python & OS artifacts
+**/__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.ipynb_checkpoints/
+
+**/vocabulary/
+**/vocabulary_all/
