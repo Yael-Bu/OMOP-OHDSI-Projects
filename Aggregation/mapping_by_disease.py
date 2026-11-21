@@ -6,17 +6,18 @@
 Comprehensive SNOMED CT Aggregation Engine (Production Standard Cleaned)
 ================================================================================
 Solves the Non-Standard Concept anomaly:
-  - Source conditions filtered to standard concepts (standard_concept == 'S').
-  - Maps non-standard conditions via CONCEPT_RELATIONSHIP ('Maps to') if present.
-  - Retains exact Depth 3 Disease core anchors and Clinical Finding D2/D3 fallbacks.
-  - Achieves >99.9% informative coverage with virtually ZERO orphans (~38 concepts).
+- Source conditions filtered to standard concepts (standard_concept == 'S').
+- Maps non-standard conditions via CONCEPT_RELATIONSHIP ('Maps to') if present.
+- Retains exact Depth 3 Disease core anchors and Clinical Finding D2/D3 fallbacks.
+- Achieves >99.9% informative coverage with virtually ZERO orphans (~38 concepts).
 ================================================================================
 """
 
 import os
 import sys
+import argparse
 import logging
-from typing import Set, Tuple, Dict, List
+from typing import Set, Tuple, Dict, List, Optional
 import pandas as pd
 
 logging.basicConfig(
@@ -73,11 +74,15 @@ def load_omop_vocabularies(input_folder: str) -> Tuple[pd.DataFrame, pd.DataFram
 def generate_production_clean_mapping(
     concept: pd.DataFrame,
     concept_ancestor: pd.DataFrame,
-    min_descendants_core: int = 10,
+    depth: int = 4,
+    min_descendants_core: int = 5,
     min_descendants_fallback: int = 2,
-    output_file: str = "mapping_snomed_depth3_production_clean.csv",
+    output_file: Optional[str] = None,
     force_recreate: bool = False
 ) -> pd.DataFrame:
+    if output_file is None:
+        output_file = f"mapping_snomed_depth{depth}_production_clean.csv"
+
     if not force_recreate and os.path.exists(output_file):
         logging.info(f"Cached mapping exists: {output_file}. Skipping generation.")
         return pd.read_csv(output_file, low_memory=False)
@@ -155,20 +160,24 @@ def generate_production_clean_mapping(
         return set(counts[counts >= min_k].index)
 
     # 3. Extract Anchors
-    anchors_d3 = extract_anchors(disease_id, exact_depth=3, valid_pool=valid_disease_anchor_ids, min_k=min_descendants_core)
-    anchors_d2 = extract_anchors(disease_id, exact_depth=2, valid_pool=valid_disease_anchor_ids, min_k=min_descendants_core)
-    anchors_d1 = extract_anchors(disease_id, exact_depth=1, valid_pool=valid_disease_anchor_ids, min_k=min_descendants_core)
-    anchors_cf_d3 = extract_anchors(cf_id, exact_depth=3, valid_pool=valid_finding_anchor_ids, min_k=min_descendants_fallback)
-    anchors_cf_d2 = extract_anchors(cf_id, exact_depth=2, valid_pool=valid_finding_anchor_ids, min_k=min_descendants_fallback)
+    disease_anchors = {
+        d: extract_anchors(disease_id, exact_depth=d, valid_pool=valid_disease_anchor_ids, min_k=min_descendants_core)
+        for d in range(depth, 0, -1)
+    }
+    cf_anchors = {
+        d: extract_anchors(cf_id, exact_depth=d, valid_pool=valid_finding_anchor_ids, min_k=min_descendants_fallback)
+        for d in range(depth, 1, -1)
+    }
 
-    logging.info(
-        f"Anchor Set Inventory:\n"
-        f"  ├─ Disease D3 (Core): {len(anchors_d3):,}\n"
-        f"  ├─ Disease D2: {len(anchors_d2):,}\n"
-        f"  ├─ Disease D1: {len(anchors_d1):,}\n"
-        f"  ├─ Clinical Findings D3: {len(anchors_cf_d3):,}\n"
-        f"  └─ Clinical Findings D2: {len(anchors_cf_d2):,}"
-    )
+    inventory_lines = ["Anchor Set Inventory:"]
+    for d in range(depth, 0, -1):
+        label = f"Disease D{d} (Core)" if d == depth else f"Disease D{d}"
+        inventory_lines.append(f"  ├─ {label}: {len(disease_anchors[d]):,}")
+    cf_depths = list(range(depth, 1, -1))
+    for i, d in enumerate(cf_depths):
+        prefix = "└─" if i == len(cf_depths) - 1 else "├─"
+        inventory_lines.append(f"  {prefix} Clinical Findings D{d}: {len(cf_anchors[d]):,}")
+    logging.info("\n".join(inventory_lines))
 
     # 4. Multi-Tier Mapping Execution
     unmapped_conds = set(snomed_cond_ids)
@@ -188,11 +197,13 @@ def generate_production_clean_mapping(
         all_mapped_pairs.append(relations)
         return current_unmapped - mapped_now
 
-    unmapped_conds = map_tier(anchors_d3, unmapped_conds, "Tier 1: Disease Depth 3")
-    unmapped_conds = map_tier(anchors_d2, unmapped_conds, "Tier 2: Disease Depth 2")
-    unmapped_conds = map_tier(anchors_d1, unmapped_conds, "Tier 3: Disease Depth 1")
-    unmapped_conds = map_tier(anchors_cf_d3, unmapped_conds, "Tier 4: Clinical Findings Depth 3")
-    unmapped_conds = map_tier(anchors_cf_d2, unmapped_conds, "Tier 5: Clinical Findings Depth 2")
+    tier_num = 1
+    for d in range(depth, 0, -1):
+        unmapped_conds = map_tier(disease_anchors[d], unmapped_conds, f"Tier {tier_num}: Disease Depth {d}")
+        tier_num += 1
+    for d in range(depth, 1, -1):
+        unmapped_conds = map_tier(cf_anchors[d], unmapped_conds, f"Tier {tier_num}: Clinical Findings Depth {d}")
+        tier_num += 1
 
     combined_relations = pd.concat(all_mapped_pairs, ignore_index=True).drop_duplicates()
 
@@ -238,13 +249,29 @@ def generate_production_clean_mapping(
 
 
 def main():
-    input_folder = "vocabulary_all"
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--vocab_dir", type=str, default="vocabulary_all")
+    parser.add_argument("--depth", type=int, default=4)
+    parser.add_argument("--min_core", type=int, default=5)
+    parser.add_argument("--min_fallback", type=int, default=2)
+    parser.add_argument("--output_file", type=str, default=None)
+    args = parser.parse_args()
+
+    input_folder = args.vocab_dir
     if not os.path.exists(input_folder):
-        potential_dir = os.path.join(os.path.dirname(__file__), "vocabulary_all")
+        potential_dir = os.path.join(os.path.dirname(__file__), args.vocab_dir)
         input_folder = potential_dir if os.path.exists(potential_dir) else input_folder
 
     concept, concept_ancestor = load_omop_vocabularies(input_folder)
-    generate_production_clean_mapping(concept, concept_ancestor, force_recreate=True)
+    generate_production_clean_mapping(
+        concept,
+        concept_ancestor,
+        depth=args.depth,
+        min_descendants_core=args.min_core,
+        min_descendants_fallback=args.min_fallback,
+        output_file=args.output_file,
+        force_recreate=True
+    )
 
 
 if __name__ == "__main__":
